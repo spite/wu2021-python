@@ -9,7 +9,7 @@ ops.curve.primitive_bezier_circle_add(radius=1.0,
 
 # Subdivide the curve by a number of cuts, giving the
 # random vertex function more points to work with.
-ops.curve.subdivide(number_cuts=8)
+ops.curve.subdivide(number_cuts=4)
 
 # Randomize the vertices of the bezier circle.
 # offset [-inf .. inf], uniform [0.0 .. 1.0],
